@@ -3,8 +3,16 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About Us</h3>
-      <p>Get to Know Us!</p>
+        <div className="row">
+          <div className="columns medium-4 large-6 small-centered">
+            <h3>About Me</h3>
+            <p>My Profile</p>
+            <ul>
+                <li><a href="#">React</a></li>
+                <li><a href="#">NodeJS</a></li>
+            </ul>
+          </div>
+        </div>
     </div>
 
     )
