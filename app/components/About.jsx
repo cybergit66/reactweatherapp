@@ -5,7 +5,7 @@ var About = (props) => {
     <div>
         <div className="row">
           <div className="columns medium-4 large-6 small-centered">
-            <h1 className="text-center">About Me</h1>
+            <h1 className="text-center page-title">About Me</h1>
             <p>My Profile</p>
             <ul>
                 <li><a href="#">React</a></li>
